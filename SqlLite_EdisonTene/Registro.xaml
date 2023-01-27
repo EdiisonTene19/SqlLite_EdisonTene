@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SqlLite_EdisonTene.Registro" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ventana de Registro" FontSize="24" HorizontalOptions="Center"/>
+            <Label Text="Nombre:"/>
+            <Entry x:Name="txtNombre" Placeholder="Introduce Nombre"/>
+            <Label Text="Usuario"/>
+            <Entry x:Name="txtUsuario" Placeholder="Escribe tu Usuario"/>
+            <Label Text="Contraseña"/>
+            <Entry x:Name="txtpassword" Placeholder="Escribe tu Password"/>
+            <Button x:Name="btn_agregar" Text="REGISTRAR" Clicked="btn_agregar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
